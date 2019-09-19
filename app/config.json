@@ -1,0 +1,5 @@
+{
+  "minecraftInstallPath": "/Path/To/Your/minecraft-server",
+  "limitTimeGoingBack": 10,
+  "backupFrequency": "hours"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "mc-backup",
+  "version": "1.0.0",
+  "description": "Backs up your minecraft server",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpileOnly ./app/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "tsc && node ./dist/app.js",
+    "tsc": "tsc"
+  },
+  "author": "Joshua S. Eagle <joshuaseagle@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/tar": "^4.0.3",
+    "moment": "^2.24.0",
+    "tar": "^4.4.11",
+    "typescript": "^3.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "ts-node-dev": "^1.0.0-pre.42"
+  }
+}
