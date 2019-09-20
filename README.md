@@ -25,12 +25,12 @@ This nodejs program is meant to run periodically based on your settings and will
   - This will open up your favorite text editor "usually it is vim"
   - move your cursor down to the end of the file and type `i` in order to put the file in edit mode.
   - This part is where it get's a little hairy. You need to know how often you want to run the backups in correlation with your config file. So I am going to assume you know a little bit about crontab, and I'll leave an example that is just like the examples I game in step 1.
-  - To set the cronjob to run every hour type the following:
-    - 0 * * * * cd /Users/jeagle/test-minecraft-server/ && sh backup-mc-server.sh
   - To set the cronjob to run every minute type the following:
-    - * * * * * cd /Users/jeagle/test-minecraft-server/ && sh backup-mc-server.sh
+    - * * * * * cd /Users/eaglejs/test-minecraft-server/ && /bin/bash backup-mc-server.sh
+  - To set the cronjob to run every hour type the following:
+    - 0 * * * * cd /Users/eaglejs/test-minecraft-server/ && /bin/bash backup-mc-server.sh
   - To set the cronjob to run daily type the following:
-    - 0 0 * * * cd /Users/jeagle/test-minecraft-server/ && sh backup-mc-server.sh
+    - 0 0 * * * cd /Users/eaglejs/test-minecraft-server/ && /bin/bash backup-mc-server.sh
   - After you are done editing hit the `escape` key and type: `:wq` and then the `enter` key
 
 Presto, you should be making backups now.
