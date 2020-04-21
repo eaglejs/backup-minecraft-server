@@ -14,11 +14,11 @@
   "dependencies": {
     "@types/tar": "^4.0.3",
     "moment": "^2.24.0",
-    "tar": "^4.4.11",
-    "typescript": "^3.6.3"
+    "tar": "^4.4.13",
+    "typescript": "^3.8.3"
   },
   "devDependencies": {
-    "eslint": "^6.4.0",
-    "ts-node-dev": "^1.0.0-pre.42"
+    "eslint": "^6.8.0",
+    "ts-node-dev": "^1.0.0-pre.44"
   }
 }
