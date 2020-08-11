@@ -18,7 +18,6 @@ class BackupMinecraft {
 
   init(): void {
     this.backupMinecraftServer();
-    // this.findOutdatedBackups();
   }
 
   backupMinecraftServer(): void{
