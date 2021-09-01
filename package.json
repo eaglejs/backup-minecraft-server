@@ -17,7 +17,7 @@
   "devDependencies": {
     "@types/tar": "^4.0.3",
     "eslint": "^6.8.0",
-    "tar": "^4.4.13",
+    "tar": "^4.4.18",
     "ts-node-dev": "^1.0.0-pre.56",
     "typescript": "^3.9.7"
   }
