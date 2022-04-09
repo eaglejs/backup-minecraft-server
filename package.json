@@ -12,7 +12,7 @@
   "author": "Joshua S. Eagle <joshuaseagle@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.27.0"
+    "moment": "^2.29.2"
   },
   "devDependencies": {
     "@types/tar": "^4.0.3",
